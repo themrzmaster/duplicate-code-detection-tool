@@ -12,7 +12,7 @@ if [ $pull_request_id == "null" ]; then
   exit 1
 fi
 
-cd $GITHUB_REPOSITORY
+
 
 latest_head=$(git rev-parse HEAD)
 
